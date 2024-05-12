@@ -34,10 +34,10 @@ const config = {
         },
         blog: {
           blogTitle: "Reedroux's Blog",
-          blogDescription: 'The ramblings of the Developers @ Reedroux`s',
+          blogDescription: 'The ramblings of the Developers @ Reedroux-Bot',
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} Reedroux's`,
+            copyright: `Copyright © ${new Date().getFullYear()} Reedroux-Bot`,
           },
           showReadingTime: true,
           editUrl: 'https://github.com/reedroux/docs/',
@@ -75,7 +75,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
       navbar: {
-        title: 'Docs',
+        title: 'Reedroux-Bot | Docs',
         logo: {
           alt: 'reedroux-logo',
           src: 'img/reedroux.webp',
@@ -114,8 +114,8 @@ const config = {
                 to: 'https://www.hetzner.com/',
               },
               {
-                label: 'YouTube',
-                to: 'https://www.youtube.com/@soniaoctarini/',
+                label: 'Phố Người Việt',
+                to: 'https://discord.gg/phonguoiviet',
               },
             ],
           },
@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Reedroux's`,
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Reedroux-Bot`,
       },
       prism: {
         theme: lightCodeTheme,
